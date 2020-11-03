@@ -13,11 +13,15 @@
           <e p="ActorsProfession.cs" t="Include" />
           <e p="Directors.cs" t="Include" />
           <e p="NameBasics.cs" t="Include" />
+          <e p="SearchHistory.cs" t="Include" />
           <e p="TitleAkas.cs" t="Include" />
           <e p="TitleBasics.cs" t="Include" />
           <e p="TitleEpisode.cs" t="Include" />
           <e p="TitleGenres.cs" t="Include" />
           <e p="TitlePrincipals.cs" t="Include" />
+          <e p="UserNameRate.cs" t="Include" />
+          <e p="Users.cs" t="Include" />
+          <e p="UserTitleRate.cs" t="Include" />
           <e p="WordSearch.cs" t="Include" />
           <e p="Writer.cs" t="Include" />
         </e>

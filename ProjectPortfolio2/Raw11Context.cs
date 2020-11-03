@@ -10,9 +10,13 @@ namespace ProjectPortfolio2
         public DbSet<TitleEpisode> EpisodeTitles { get; set; }
         public DbSet<TitleGenres> Genres { get; set; }
         public DbSet<NameBasics> NameBasics { get; set; }
+        public DbSet<SearchHistory> SearchHistory { get; set; }
         public DbSet<TitleAkas> TitleAkas { get; set; }
         public DbSet<TitleBasics> TitleBasics { get; set; }
         public DbSet<TitlePrincipals> TitlePrincipals { get; set; }
+        public DbSet<UserNameRate> UserNameRates { get; set; }
+        public DbSet<Users> Users { get; set; }
+        public DbSet<UserTitleRate> UserTitleRates { get; set; }
         public DbSet<WordSearch> WordSearch { get; set; }
         public DbSet<Writer> Writers { get; set; }
 

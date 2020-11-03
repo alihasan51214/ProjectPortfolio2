@@ -4,9 +4,14 @@
     <projectFile>ProjectPortfolio2/ProjectPortfolio2.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05308839-3526-4f2e-8758-7016a4068432" name="Default Changelist" comment="">
+    <list default="true" id="05308839-3526-4f2e-8758-7016a4068432" name="Default Changelist" comment=":D">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ProjectPortfolio2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/SearchHistory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/UserNameRate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/UserTitleRate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectPortfolio2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectPortfolio2/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectPortfolio2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectPortfolio2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/ActorsKnownForTitles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/ActorsKnownForTitles.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/Raw11Context.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/Raw11Context.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +20,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -43,22 +52,31 @@
         <option value="$PROJECT_DIR$/ProjectPortfolio2/Objects/ActorsKnownForTitles.cs" />
         <option value="$PROJECT_DIR$/ProjectPortfolio2/Objects/Director.cs" />
         <option value="$PROJECT_DIR$/ProjectPortfolio2/Objects/EpisodeTitle.cs" />
-        <option value="$PROJECT_DIR$/ProjectPortfolio2/DataService.cs" />
         <option value="$PROJECT_DIR$/ProjectPortfolio2/Program.cs" />
         <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/Director.cs" />
-        <option value="$PROJECT_DIR$/ProjectPortfolio2/Raw11Context.cs" />
+        <option value="$PROJECT_DIR$/ProjectPortfolio2/DataService.cs" />
+        <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/Directors.cs" />
         <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/ActorsKnownForTitles.cs" />
+        <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/UserTitleRate.cs" />
+        <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/Users.cs" />
+        <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/SearchHistory.cs" />
+        <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/UserNameRate.cs" />
+        <option value="$PROJECT_DIR$/ProjectPortfolio2/Raw11Context.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1jkkxICSuJ17q24vWnfJCFsPn2X" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -99,8 +117,16 @@
       <workItem from="1604355729446" duration="4623000" />
       <workItem from="1604362124437" duration="2989000" />
       <workItem from="1604371866484" duration="348000" />
-      <workItem from="1604398054552" duration="3465000" />
+      <workItem from="1604398054552" duration="4564000" />
     </task>
+    <task id="LOCAL-00001" summary=":D">
+      <created>1604402367827</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604402367827</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +136,8 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value=":D" />
+    <option name="LAST_COMMIT_MESSAGE" value=":D" />
   </component>
   <component name="WindowStateProjectService">
     <state x="821" y="414" key="Github.ShareDialog" timestamp="1604400953434">
@@ -136,10 +164,18 @@
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1034@0.0.1920.1034" timestamp="1604365140004" />
+    <state x="184" y="85" key="MergeDialog" timestamp="1604402224360">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state x="184" y="85" key="MergeDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1604402224360" />
     <state x="552" y="248" key="Rider.ProjectTemplateDialog.Size" timestamp="1604401193882">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state x="552" y="248" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1034@0.0.1920.1034" timestamp="1604401193882" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1604402382382">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1034@0.0.1920.1034" timestamp="1604402382382" />
     <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604402204101">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
