@@ -5,8 +5,8 @@ namespace ProjectPortfolio2
     public class UserTitleRate
     {
         public int UserId { get; set; }
-        public int NameIndividRating { get; set; }
-        public string Nconst { get; set; }
-        public DateTime DateTime { get; set; }
+        public int TitleIndividRating { get; set; }
+        public string Tconst { get; set; }
+        public DateTime UserTitleRateDate { get; set; }
     }
 }

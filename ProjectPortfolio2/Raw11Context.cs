@@ -7,6 +7,8 @@ namespace ProjectPortfolio2
     {
         public DbSet<ActorsKnownForTitles> ActorsKnownForTitles { get; set; }
         public DbSet<ActorsProfession> ActorsProfessions { get; set; }
+        public DbSet<BookmarkPerson> BookmarkPerson { get; set; }
+        public DbSet<Bookmarktitle> Bookmarktitle { get; set; }
         public DbSet<Directors> Directors { get; set; }
         public DbSet<TitleEpisode> EpisodeTitles { get; set; }
         public DbSet<TitleGenres> Genres { get; set; }
@@ -20,8 +22,6 @@ namespace ProjectPortfolio2
         public DbSet<UserTitleRate> UserTitleRates { get; set; }
         public DbSet<WordSearch> WordSearch { get; set; }
         public DbSet<Writer> Writers { get; set; }
-        public DbSet<BookmarkPerson> BookmarkPerson { get; set; }
-        public DbSet<Bookmarktitle> Bookmarktitle { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -35,6 +35,12 @@ namespace ProjectPortfolio2
             
             modelBuilder.Entity<ActorsProfession>().Property(x => x.Nconst).HasColumnName("nconst");
             modelBuilder.Entity<ActorsProfession>().Property(x => x.PrimaryProfession).HasColumnName("primaryprofession");
+            
+            modelBuilder.Entity<BookmarkPerson>().Property(x => x.Userid).HasColumnName("userid");
+            modelBuilder.Entity<BookmarkPerson>().Property(x => x.Nconst).HasColumnName("nconst");
+
+            modelBuilder.Entity<Bookmarktitle>().Property(x => x.Userid).HasColumnName("userid");
+            modelBuilder.Entity<Bookmarktitle>().Property(x => x.Tconst).HasColumnName("tconst");
             
             modelBuilder.Entity<Directors>().Property(x => x.Tconst).HasColumnName("tconst");
             modelBuilder.Entity<Directors>().Property(x => x.Nconst).HasColumnName("nconst");
@@ -52,6 +58,10 @@ namespace ProjectPortfolio2
             modelBuilder.Entity<NameBasics>().Property(x => x.BirthYear).HasColumnName("birthyear");
             modelBuilder.Entity<NameBasics>().Property(x => x.DeathYear).HasColumnName("deathyear");
             
+            modelBuilder.Entity<SearchHistory>().Property(x => x.UserId).HasColumnName("userid");
+            modelBuilder.Entity<SearchHistory>().Property(x => x.SearchInput).HasColumnName("search_input");
+            modelBuilder.Entity<SearchHistory>().Property(x => x.DateTime).HasColumnName("search_date");
+
             modelBuilder.Entity<TitleAkas>().Property(x => x.TitleID).HasColumnName("titleid");
             modelBuilder.Entity<TitleAkas>().Property(x => x.Ordering).HasColumnName("ordering");
             modelBuilder.Entity<TitleAkas>().Property(x => x.Title).HasColumnName("title");
@@ -82,6 +92,22 @@ namespace ProjectPortfolio2
             modelBuilder.Entity<TitlePrincipals>().Property(x => x.Job).HasColumnName("job");
             modelBuilder.Entity<TitlePrincipals>().Property(x => x.Characters).HasColumnName("characters");
             
+            modelBuilder.Entity<UserNameRate>().Property(x => x.UserId).HasColumnName("userid");
+            modelBuilder.Entity<UserNameRate>().Property(x => x.NameIndividRating).HasColumnName("name_individrating");
+            modelBuilder.Entity<UserNameRate>().Property(x => x.Nconst).HasColumnName("nconst");
+            modelBuilder.Entity<UserNameRate>().Property(x => x.DateTime).HasColumnName("username_date");
+            
+            modelBuilder.Entity<Users>().Property(x => x.UserId).HasColumnName("userid");
+            modelBuilder.Entity<Users>().Property(x => x.Name).HasColumnName("name");
+            modelBuilder.Entity<Users>().Property(x => x.Age).HasColumnName("age");
+            modelBuilder.Entity<Users>().Property(x => x.Language).HasColumnName("language");
+            modelBuilder.Entity<Users>().Property(x => x.Mail).HasColumnName("mail");
+
+            modelBuilder.Entity<UserTitleRate>().Property(x => x.UserId).HasColumnName("userid");
+            modelBuilder.Entity<UserTitleRate>().Property(x => x.TitleIndividRating).HasColumnName("title_individrating");
+            modelBuilder.Entity<UserTitleRate>().Property(x => x.Tconst).HasColumnName("tconst");
+            modelBuilder.Entity<UserTitleRate>().Property(x => x.UserTitleRateDate).HasColumnName("usertitlerate_date");
+
             modelBuilder.Entity<WordSearch>().Property(x => x.Tconst).HasColumnName("tconst");
             modelBuilder.Entity<WordSearch>().Property(x => x.Word).HasColumnName("word");
             modelBuilder.Entity<WordSearch>().Property(x => x.Field).HasColumnName("field");
@@ -89,12 +115,6 @@ namespace ProjectPortfolio2
             
             modelBuilder.Entity<Writer>().Property(x => x.Tconst).HasColumnName("tconst");
             modelBuilder.Entity<Writer>().Property(x => x.Writers).HasColumnName("writers");
-
-            modelBuilder.Entity<BookmarkPerson>().Property(x => x.Userid).HasColumnName("userid");
-            modelBuilder.Entity<BookmarkPerson>().Property(x => x.Nconst).HasColumnName("nconst");
-
-            modelBuilder.Entity<Bookmarktitle>().Property(x => x.Userid).HasColumnName("userid");
-            modelBuilder.Entity<Bookmarktitle>().Property(x => x.Tconst).HasColumnName("tconst");
         }
     }
 }

@@ -11,6 +11,8 @@
         <e p="DB-Objects" t="Include">
           <e p="ActorsKnownForTitles.cs" t="Include" />
           <e p="ActorsProfession.cs" t="Include" />
+          <e p="BookmarkPerson.cs" t="Include" />
+          <e p="Bookmarktitle.cs" t="Include" />
           <e p="Directors.cs" t="Include" />
           <e p="NameBasics.cs" t="Include" />
           <e p="SearchHistory.cs" t="Include" />
