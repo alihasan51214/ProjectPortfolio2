@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using ProjectPortfolio2.DBObjects;
 
 namespace ProjectPortfolio2
 {
@@ -19,6 +20,8 @@ namespace ProjectPortfolio2
         public DbSet<UserTitleRate> UserTitleRates { get; set; }
         public DbSet<WordSearch> WordSearch { get; set; }
         public DbSet<Writer> Writers { get; set; }
+        public DbSet<BookmarkPerson> BookmarkPerson { get; set; }
+        public DbSet<Bookmarktitle> Bookmarktitle { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -86,6 +89,12 @@ namespace ProjectPortfolio2
             
             modelBuilder.Entity<Writer>().Property(x => x.Tconst).HasColumnName("tconst");
             modelBuilder.Entity<Writer>().Property(x => x.Writers).HasColumnName("writers");
+
+            modelBuilder.Entity<BookmarkPerson>().Property(x => x.Userid).HasColumnName("userid");
+            modelBuilder.Entity<BookmarkPerson>().Property(x => x.Nconst).HasColumnName("nconst");
+
+            modelBuilder.Entity<Bookmarktitle>().Property(x => x.Userid).HasColumnName("userid");
+            modelBuilder.Entity<Bookmarktitle>().Property(x => x.Tconst).HasColumnName("tconst");
         }
     }
 }
