@@ -1,6 +1,6 @@
 ﻿namespace ProjectPortfolio2
 {
-    public class EpisodeTitle
+    public class TitleEpisode
     {
         public string Tconst { get; set; }
         public string ParentTconst { get; set; }
