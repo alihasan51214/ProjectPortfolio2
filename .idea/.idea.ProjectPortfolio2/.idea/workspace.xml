@@ -4,11 +4,17 @@
     <projectFile>ProjectPortfolio2/ProjectPortfolio2.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05308839-3526-4f2e-8758-7016a4068432" name="Default Changelist" comment="" />
+    <list default="true" id="05308839-3526-4f2e-8758-7016a4068432" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectPortfolio2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectPortfolio2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/ActorsKnownForTitles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/ActorsKnownForTitles.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -41,10 +47,12 @@
         <option value="$PROJECT_DIR$/ProjectPortfolio2/Program.cs" />
         <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/Director.cs" />
         <option value="$PROJECT_DIR$/ProjectPortfolio2/Raw11Context.cs" />
+        <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/ActorsKnownForTitles.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1jkkxICSuJ17q24vWnfJCFsPn2X" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -91,7 +99,7 @@
       <workItem from="1604355729446" duration="4623000" />
       <workItem from="1604362124437" duration="2989000" />
       <workItem from="1604371866484" duration="348000" />
-      <workItem from="1604398054552" duration="2000000" />
+      <workItem from="1604398054552" duration="3465000" />
     </task>
     <servers />
   </component>
@@ -104,6 +112,14 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="821" y="414" key="Github.ShareDialog" timestamp="1604400953434">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state x="821" y="414" key="Github.ShareDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1604400953434" />
+    <state x="662" y="222" key="Github.UntrackedFilesDialog" timestamp="1604400962790">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state x="662" y="222" key="Github.UntrackedFilesDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1604400962790" />
     <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1604365140004">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
@@ -120,5 +136,13 @@
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1034@0.0.1920.1034" timestamp="1604365140004" />
+    <state x="552" y="248" key="Rider.ProjectTemplateDialog.Size" timestamp="1604401193882">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state x="552" y="248" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1034@0.0.1920.1034" timestamp="1604401193882" />
+    <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604402204101">
+      <screen x="0" y="0" width="1920" height="1034" />
+    </state>
+    <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1034@0.0.1920.1034" timestamp="1604402204101" />
   </component>
 </project>

@@ -11,12 +11,12 @@
         <e p="DB-Objects" t="Include">
           <e p="ActorsKnownForTitles.cs" t="Include" />
           <e p="ActorsProfession.cs" t="Include" />
-          <e p="Director.cs" t="Include" />
-          <e p="EpisodeTitle.cs" t="Include" />
-          <e p="Genre.cs" t="Include" />
+          <e p="Directors.cs" t="Include" />
           <e p="NameBasics.cs" t="Include" />
           <e p="TitleAkas.cs" t="Include" />
           <e p="TitleBasics.cs" t="Include" />
+          <e p="TitleEpisode.cs" t="Include" />
+          <e p="TitleGenres.cs" t="Include" />
           <e p="TitlePrincipals.cs" t="Include" />
           <e p="WordSearch.cs" t="Include" />
           <e p="Writer.cs" t="Include" />

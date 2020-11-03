@@ -6,9 +6,9 @@ namespace ProjectPortfolio2
     {
         public DbSet<ActorsKnownForTitles> ActorsKnownForTitles { get; set; }
         public DbSet<ActorsProfession> ActorsProfessions { get; set; }
-        public DbSet<Director> Directors { get; set; }
-        public DbSet<EpisodeTitle> EpisodeTitles { get; set; }
-        public DbSet<Genre> Genres { get; set; }
+        public DbSet<Directors> Directors { get; set; }
+        public DbSet<TitleEpisode> EpisodeTitles { get; set; }
+        public DbSet<TitleGenres> Genres { get; set; }
         public DbSet<NameBasics> NameBasics { get; set; }
         public DbSet<TitleAkas> TitleAkas { get; set; }
         public DbSet<TitleBasics> TitleBasics { get; set; }
@@ -29,16 +29,16 @@ namespace ProjectPortfolio2
             modelBuilder.Entity<ActorsProfession>().Property(x => x.Nconst).HasColumnName("nconst");
             modelBuilder.Entity<ActorsProfession>().Property(x => x.PrimaryProfession).HasColumnName("primaryprofession");
             
-            modelBuilder.Entity<Director>().Property(x => x.Tconst).HasColumnName("tconst");
-            modelBuilder.Entity<Director>().Property(x => x.Nconst).HasColumnName("nconst");
+            modelBuilder.Entity<Directors>().Property(x => x.Tconst).HasColumnName("tconst");
+            modelBuilder.Entity<Directors>().Property(x => x.Nconst).HasColumnName("nconst");
             
-            modelBuilder.Entity<EpisodeTitle>().Property(x => x.Tconst).HasColumnName("tconst");
-            modelBuilder.Entity<EpisodeTitle>().Property(x => x.ParentTconst).HasColumnName("parenttconst");
-            modelBuilder.Entity<EpisodeTitle>().Property(x => x.SeasonNumber).HasColumnName("seasonnumber");
-            modelBuilder.Entity<EpisodeTitle>().Property(x => x.EpisodeNumber).HasColumnName("episodenumber");
+            modelBuilder.Entity<TitleEpisode>().Property(x => x.Tconst).HasColumnName("tconst");
+            modelBuilder.Entity<TitleEpisode>().Property(x => x.ParentTconst).HasColumnName("parenttconst");
+            modelBuilder.Entity<TitleEpisode>().Property(x => x.SeasonNumber).HasColumnName("seasonnumber");
+            modelBuilder.Entity<TitleEpisode>().Property(x => x.EpisodeNumber).HasColumnName("episodenumber");
             
-            modelBuilder.Entity<Genre>().Property(x => x.Tconst).HasColumnName("tconst");
-            modelBuilder.Entity<Genre>().Property(x => x.Genres).HasColumnName("genres");
+            modelBuilder.Entity<TitleGenres>().Property(x => x.Tconst).HasColumnName("tconst");
+            modelBuilder.Entity<TitleGenres>().Property(x => x.Genres).HasColumnName("genres");
             
             modelBuilder.Entity<NameBasics>().Property(x => x.Nconst).HasColumnName("nconst");
             modelBuilder.Entity<NameBasics>().Property(x => x.PrimaryName).HasColumnName("primaryname");
