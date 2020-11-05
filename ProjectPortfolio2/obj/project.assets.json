@@ -759,19 +759,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\bob-w\\.nuget\\packages\\": {}
+    "C:\\Users\\aliha\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bob-w\\source\\repos\\ProjectPortfolio2Models\\ProjectPortfolio2\\ProjectPortfolio2.csproj",
+      "projectUniqueName": "D:\\RUC\\Kandidat\\1 Semester\\Project portfolio\\Project portfolio 2\\ProjectPortfolio2\\ProjectPortfolio2\\ProjectPortfolio2.csproj",
       "projectName": "ProjectPortfolio2",
-      "projectPath": "C:\\Users\\bob-w\\source\\repos\\ProjectPortfolio2Models\\ProjectPortfolio2\\ProjectPortfolio2.csproj",
-      "packagesPath": "C:\\Users\\bob-w\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\bob-w\\source\\repos\\ProjectPortfolio2Models\\ProjectPortfolio2\\obj\\",
+      "projectPath": "D:\\RUC\\Kandidat\\1 Semester\\Project portfolio\\Project portfolio 2\\ProjectPortfolio2\\ProjectPortfolio2\\ProjectPortfolio2.csproj",
+      "packagesPath": "C:\\Users\\aliha\\.nuget\\packages\\",
+      "outputPath": "D:\\RUC\\Kandidat\\1 Semester\\Project portfolio\\Project portfolio 2\\ProjectPortfolio2\\ProjectPortfolio2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\bob-w\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aliha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -823,7 +823,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
