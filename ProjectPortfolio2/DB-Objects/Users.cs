@@ -1,8 +1,11 @@
-﻿namespace ProjectPortfolio2
+﻿using System.ComponentModel.DataAnnotations;
+ 
+namespace ProjectPortfolio2
 {
     public class Users
-    {
-        public int UserId { get; set; }
+    {   
+              [Key]
+    public int UserId { get; set; }
         public string Name { get; set; }
         public int Age { get; set; }
         public string Language { get; set; }

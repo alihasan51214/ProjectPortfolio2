@@ -8,7 +8,7 @@ namespace ProjectPortfolio2
         {    
             var dataService = new DataService();
 
-            foreach (var elem in dataService.GetGenres())
+            foreach (var elem in dataService.GetActorsKnownForTitles())
             {
                 Console.Write(elem);
             }

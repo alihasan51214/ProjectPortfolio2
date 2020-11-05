@@ -1,8 +1,12 @@
-﻿namespace ProjectPortfolio2
+﻿using System.ComponentModel.DataAnnotations;
+ 
+namespace ProjectPortfolio2
 {
     public class Directors
     {
         public string Tconst { get; set; }
-        public string Nconst { get; set; }
+   
+         [Key]
+    public string Nconst { get; set; }
     }
 }

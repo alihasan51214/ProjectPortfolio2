@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ProjectPortfolio2.DBObjects;
+ 
 
 namespace ProjectPortfolio2
 {
@@ -25,11 +26,11 @@ namespace ProjectPortfolio2
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("host=RAWDATA_SMALL;db=raw11;uid=raw11;pwd=rtmkak12");
+            optionsBuilder.UseNpgsql("host=localhost;db=imdb;uid=postgres;pwd=bobbystyrer");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
+        {   modelBuilder.Entity<ActorsKnownForTitles>().ToTable("actors_known_for_titles");  
             modelBuilder.Entity<ActorsKnownForTitles>().Property(x => x.Nconst).HasColumnName("nconst");
             modelBuilder.Entity<ActorsKnownForTitles>().Property(x => x.KnownForTitles).HasColumnName("knownfortitles");
             

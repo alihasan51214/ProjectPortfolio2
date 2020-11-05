@@ -1,8 +1,11 @@
-﻿namespace ProjectPortfolio2
+﻿using System.ComponentModel.DataAnnotations;
+ 
+namespace ProjectPortfolio2
 {
     public class TitleAkas
-    {
-        public string TitleID { get; set; }
+    {    
+        [Key]
+    public string TitleID { get; set; }
         public int Ordering { get; set; }
         public string Title { get; set; }
         public string Region { get; set; }

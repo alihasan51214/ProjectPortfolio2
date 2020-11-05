@@ -1,8 +1,11 @@
-﻿namespace ProjectPortfolio2
+﻿using System.ComponentModel.DataAnnotations;
+ 
+namespace ProjectPortfolio2
 {
     public class Writer
-    {
-        public string Tconst { get; set; }
+    {         
+           [Key]
+    public string Tconst { get; set; }
         public string Writers { get; set; }
     }
 }
