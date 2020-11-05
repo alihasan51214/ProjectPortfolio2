@@ -25,7 +25,7 @@ namespace ProjectPortfolio2
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("host=localhost;db=imdb;uid=postgres;pwd=bobbystyrer");
+            optionsBuilder.UseNpgsql("host=localhost;db=imdb;uid=postgres;pwd=rtmkak12");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

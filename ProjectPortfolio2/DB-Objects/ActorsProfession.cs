@@ -4,6 +4,8 @@ using System.Text;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Collections;
+using System.ComponentModel.DataAnnotations;
+
 namespace ProjectPortfolio2
 {
     public class ActorsProfession

@@ -4,23 +4,36 @@
     <projectFile>ProjectPortfolio2/ProjectPortfolio2.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05308839-3526-4f2e-8758-7016a4068432" name="Default Changelist" comment="class Users">
+    <list default="true" id="05308839-3526-4f2e-8758-7016a4068432" name="Default Changelist" comment="changes">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProjectPortfolio2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProjectPortfolio2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/ActorsKnownForTitles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/ActorsKnownForTitles.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/NameBasics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/NameBasics.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/TitleBasics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/TitleBasics.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/ActorsProfession.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/ActorsProfession.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/BookmarkPerson.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/BookmarkPerson.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/Bookmarktitle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/Bookmarktitle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/Directors.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/Directors.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/SearchHistory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/SearchHistory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/TitleAkas.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/TitleAkas.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/TitleEpisode.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/TitleEpisode.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/TitleGenres.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/TitleGenres.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/TitlePrincipals.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/TitlePrincipals.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/UserNameRate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/UserNameRate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/UserTitleRate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/UserTitleRate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/Users.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/Users.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/WordSearch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/WordSearch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/Writer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/Writer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/Raw11Context.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/Raw11Context.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/bin/Debug/netcoreapp3.1/ProjectPortfolio2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/bin/Debug/netcoreapp3.1/ProjectPortfolio2.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/bin/Debug/netcoreapp3.1/ProjectPortfolio2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/bin/Debug/netcoreapp3.1/ProjectPortfolio2.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/obj/Debug/netcoreapp3.1/ProjectPortfolio2.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/obj/Debug/netcoreapp3.1/ProjectPortfolio2.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/obj/Debug/netcoreapp3.1/ProjectPortfolio2.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/obj/Debug/netcoreapp3.1/ProjectPortfolio2.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/obj/Debug/netcoreapp3.1/ProjectPortfolio2.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/obj/Debug/netcoreapp3.1/ProjectPortfolio2.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/obj/Debug/netcoreapp3.1/ProjectPortfolio2.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/obj/Debug/netcoreapp3.1/ProjectPortfolio2.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/obj/Debug/netcoreapp3.1/ProjectPortfolio2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/obj/Debug/netcoreapp3.1/ProjectPortfolio2.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/obj/Debug/netcoreapp3.1/ProjectPortfolio2.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/obj/Debug/netcoreapp3.1/ProjectPortfolio2.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/obj/ProjectPortfolio2.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/obj/ProjectPortfolio2.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/obj/ProjectPortfolio2.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/obj/ProjectPortfolio2.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectPortfolio2/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectPortfolio2/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +45,29 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -65,15 +101,24 @@
         <option value="$PROJECT_DIR$/ProjectPortfolio2/Program.cs" />
         <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/Director.cs" />
         <option value="$PROJECT_DIR$/ProjectPortfolio2/DataService.cs" />
-        <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/Directors.cs" />
-        <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/Users.cs" />
-        <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/SearchHistory.cs" />
-        <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/UserNameRate.cs" />
-        <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/UserTitleRate.cs" />
         <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/ActorsKnownForTitles.cs" />
-        <option value="$PROJECT_DIR$/ProjectPortfolio2/Raw11Context.cs" />
-        <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/TitleBasics.cs" />
+        <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/ActorsProfession.cs" />
+        <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/BookmarkPerson.cs" />
+        <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/Bookmarktitle.cs" />
+        <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/Directors.cs" />
         <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/NameBasics.cs" />
+        <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/TitleAkas.cs" />
+        <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/TitleBasics.cs" />
+        <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/TitleEpisode.cs" />
+        <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/TitleGenres.cs" />
+        <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/UserNameRate.cs" />
+        <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/Users.cs" />
+        <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/UserTitleRate.cs" />
+        <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/WordSearch.cs" />
+        <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/Writer.cs" />
+        <option value="$PROJECT_DIR$/ProjectPortfolio2/Raw11Context.cs" />
+        <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/TitlePrincipals.cs" />
+        <option value="$PROJECT_DIR$/ProjectPortfolio2/DB-Objects/SearchHistory.cs" />
       </list>
     </option>
   </component>
@@ -129,7 +174,7 @@
       <workItem from="1604355729446" duration="4623000" />
       <workItem from="1604362124437" duration="2989000" />
       <workItem from="1604371866484" duration="348000" />
-      <workItem from="1604398054552" duration="15037000" />
+      <workItem from="1604398054552" duration="17320000" />
     </task>
     <task id="LOCAL-00001" summary=":D">
       <created>1604402367827</created>
@@ -159,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604404588239</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="changes">
+      <created>1604574685533</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604574685533</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +224,8 @@
     <MESSAGE value=":D" />
     <MESSAGE value="Added object classes" />
     <MESSAGE value="class Users" />
-    <option name="LAST_COMMIT_MESSAGE" value="class Users" />
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="821" y="414" key="Github.ShareDialog" timestamp="1604400953434">
@@ -183,38 +236,38 @@
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state x="662" y="222" key="Github.UntrackedFilesDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1604400962790" />
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1604536414267">
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1604577368714">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1034@0.0.1920.1034" timestamp="1604536414267" />
-    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1604536414267">
+    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1034@0.0.1920.1034" timestamp="1604577368714" />
+    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1604577368714">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1034@0.0.1920.1034" timestamp="1604536414267" />
-    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1604536414267">
+    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1034@0.0.1920.1034" timestamp="1604577368714" />
+    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1604577368714">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1034@0.0.1920.1034" timestamp="1604536414267" />
-    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1604536414267">
+    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1034@0.0.1920.1034" timestamp="1604577368714" />
+    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1604577368714">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1034@0.0.1920.1034" timestamp="1604536414267" />
-    <state x="184" y="85" key="MergeDialog" timestamp="1604402224360">
+    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1034@0.0.1920.1034" timestamp="1604577368714" />
+    <state x="184" y="85" key="MergeDialog" timestamp="1604577499319">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
-    <state x="184" y="85" key="MergeDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1604402224360" />
+    <state x="184" y="85" key="MergeDialog/0.0.1920.1034@0.0.1920.1034" timestamp="1604577499319" />
     <state x="552" y="248" key="Rider.ProjectTemplateDialog.Size" timestamp="1604401193882">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
     <state x="552" y="248" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1034@0.0.1920.1034" timestamp="1604401193882" />
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1604404603140">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1604574691026">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
-    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1034@0.0.1920.1034" timestamp="1604404603140" />
-    <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604403430359">
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1034@0.0.1920.1034" timestamp="1604574691026" />
+    <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604577407966">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
-    <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1034@0.0.1920.1034" timestamp="1604403430359" />
+    <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1034@0.0.1920.1034" timestamp="1604577407966" />
     <state x="623" y="223" width="672" height="678" key="search.everywhere.popup" timestamp="1604403397253">
       <screen x="0" y="0" width="1920" height="1034" />
     </state>
