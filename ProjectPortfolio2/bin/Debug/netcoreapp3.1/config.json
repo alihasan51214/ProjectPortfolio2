@@ -1,0 +1,3 @@
+﻿{
+  "connectionString": "host=localhost;db=rawdata_small;uid=postgres;pwd=1234"
+}
