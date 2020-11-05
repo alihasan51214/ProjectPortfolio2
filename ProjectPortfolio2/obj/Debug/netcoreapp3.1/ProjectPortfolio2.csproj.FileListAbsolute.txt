@@ -40,6 +40,10 @@ C:\Users\bob-w\source\repos\ProjectPortfolio2Models\ProjectPortfolio2\bin\Debug\
 C:\Users\bob-w\source\repos\ProjectPortfolio2Models\ProjectPortfolio2\bin\Debug\netcoreapp3.1\ProjectPortfolio2.runtimeconfig.dev.json
 C:\Users\bob-w\source\repos\ProjectPortfolio2Models\ProjectPortfolio2\bin\Debug\netcoreapp3.1\ProjectPortfolio2.dll
 C:\Users\bob-w\source\repos\ProjectPortfolio2Models\ProjectPortfolio2\bin\Debug\netcoreapp3.1\ProjectPortfolio2.pdb
+C:\Users\bob-w\source\repos\ProjectPortfolio2Models\ProjectPortfolio2\obj\Debug\netcoreapp3.1\ProjectPortfolio2.csprojAssemblyReference.cache
+C:\Users\bob-w\source\repos\ProjectPortfolio2Models\ProjectPortfolio2\obj\Debug\netcoreapp3.1\ProjectPortfolio2.AssemblyInfoInputs.cache
+C:\Users\bob-w\source\repos\ProjectPortfolio2Models\ProjectPortfolio2\obj\Debug\netcoreapp3.1\ProjectPortfolio2.AssemblyInfo.cs
+C:\Users\bob-w\source\repos\ProjectPortfolio2Models\ProjectPortfolio2\obj\Debug\netcoreapp3.1\ProjectPortfolio2.genruntimeconfig.cache
 C:\Users\bob-w\source\repos\ProjectPortfolio2Models\ProjectPortfolio2\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\bob-w\source\repos\ProjectPortfolio2Models\ProjectPortfolio2\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
 C:\Users\bob-w\source\repos\ProjectPortfolio2Models\ProjectPortfolio2\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
@@ -60,9 +64,5 @@ C:\Users\bob-w\source\repos\ProjectPortfolio2Models\ProjectPortfolio2\bin\Debug\
 C:\Users\bob-w\source\repos\ProjectPortfolio2Models\ProjectPortfolio2\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\bob-w\source\repos\ProjectPortfolio2Models\ProjectPortfolio2\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Users\bob-w\source\repos\ProjectPortfolio2Models\ProjectPortfolio2\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-C:\Users\bob-w\source\repos\ProjectPortfolio2Models\ProjectPortfolio2\obj\Debug\netcoreapp3.1\ProjectPortfolio2.csprojAssemblyReference.cache
-C:\Users\bob-w\source\repos\ProjectPortfolio2Models\ProjectPortfolio2\obj\Debug\netcoreapp3.1\ProjectPortfolio2.AssemblyInfoInputs.cache
-C:\Users\bob-w\source\repos\ProjectPortfolio2Models\ProjectPortfolio2\obj\Debug\netcoreapp3.1\ProjectPortfolio2.AssemblyInfo.cs
-C:\Users\bob-w\source\repos\ProjectPortfolio2Models\ProjectPortfolio2\obj\Debug\netcoreapp3.1\ProjectPortfolio2.csproj.CoreCompileInputs.cache
 C:\Users\bob-w\source\repos\ProjectPortfolio2Models\ProjectPortfolio2\obj\Debug\netcoreapp3.1\ProjectPortfolio2.csproj.CopyComplete
-C:\Users\bob-w\source\repos\ProjectPortfolio2Models\ProjectPortfolio2\obj\Debug\netcoreapp3.1\ProjectPortfolio2.genruntimeconfig.cache
+C:\Users\bob-w\source\repos\ProjectPortfolio2Models\ProjectPortfolio2\obj\Debug\netcoreapp3.1\ProjectPortfolio2.csproj.CoreCompileInputs.cache
