@@ -1,4 +1,6 @@
-﻿namespace ProjectPortfolio2
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace ProjectPortfolio2
 {
     public class TitleBasics
     {

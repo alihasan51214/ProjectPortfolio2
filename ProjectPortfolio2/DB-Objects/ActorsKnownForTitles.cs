@@ -1,4 +1,7 @@
-﻿namespace ProjectPortfolio2
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace ProjectPortfolio2
 {
     public class ActorsKnownForTitles
     {

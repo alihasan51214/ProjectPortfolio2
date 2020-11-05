@@ -1,4 +1,7 @@
-﻿namespace ProjectPortfolio2
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+
+namespace ProjectPortfolio2
 {
     public class NameBasics
     {
