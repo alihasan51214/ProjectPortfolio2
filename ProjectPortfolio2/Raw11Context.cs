@@ -33,6 +33,8 @@ namespace ProjectPortfolio2
             modelBuilder.Entity<ActorsKnownForTitles>().ToTable("actors_known_for_titles");
             modelBuilder.Entity<ActorsKnownForTitles>().Property(x => x.Nconst).HasColumnName("nconst");
             modelBuilder.Entity<ActorsKnownForTitles>().Property(x => x.KnownForTitles).HasColumnName("knownfortitles");
+            modelBuilder.Entity<ActorsKnownForTitles>().HasKey(x => new {x.Nconst, x.KnownForTitles});
+
             
             modelBuilder.Entity<ActorsProfession>().ToTable("actors_profession");
             modelBuilder.Entity<ActorsProfession>().Property(x => x.Nconst).HasColumnName("nconst");
@@ -55,7 +57,8 @@ namespace ProjectPortfolio2
             modelBuilder.Entity<NameBasics>().Property(x => x.PrimaryName).HasColumnName("primaryname");
             modelBuilder.Entity<NameBasics>().Property(x => x.BirthYear).HasColumnName("birthyear");
             modelBuilder.Entity<NameBasics>().Property(x => x.DeathYear).HasColumnName("deathyear");
-            
+            modelBuilder.Entity<NameBasics>().HasKey(x => x.Nconst);
+
             modelBuilder.Entity<SearchHistory>().ToTable("search_history");
             modelBuilder.Entity<SearchHistory>().Property(x => x.UserId).HasColumnName("userid");
             modelBuilder.Entity<SearchHistory>().Property(x => x.SearchInput).HasColumnName("search_input");
