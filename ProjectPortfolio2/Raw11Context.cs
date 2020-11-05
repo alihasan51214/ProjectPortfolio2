@@ -5,27 +5,38 @@ namespace ProjectPortfolio2
 {
     public class Raw11Context : DbContext
     {
+        private readonly string _connectionString;
+
+        public Raw11Context(string connectionString)
+        {
+
+            _connectionString = connectionString;
+        }
+
+
         public DbSet<ActorsKnownForTitles> ActorsKnownForTitles { get; set; }
         public DbSet<ActorsProfession> ActorsProfessions { get; set; }
         public DbSet<BookmarkPerson> BookmarkPerson { get; set; }
         public DbSet<Bookmarktitle> Bookmarktitle { get; set; }
         public DbSet<Directors> Directors { get; set; }
-        public DbSet<TitleEpisode> EpisodeTitles { get; set; }
+        public DbSet<TitleEpisode> TitleEpisode { get; set; }
         public DbSet<TitleGenres> Genres { get; set; }
         public DbSet<NameBasics> NameBasics { get; set; }
         public DbSet<SearchHistory> SearchHistory { get; set; }
         public DbSet<TitleAkas> TitleAkas { get; set; }
         public DbSet<TitleBasics> TitleBasics { get; set; }
         public DbSet<TitlePrincipals> TitlePrincipals { get; set; }
-        public DbSet<UserNameRate> UserNameRates { get; set; }
+        public DbSet<UserNameRate> UserNameRate { get; set; }
         public DbSet<Users> Users { get; set; }
-        public DbSet<UserTitleRate> UserTitleRates { get; set; }
+        public DbSet<UserTitleRate> UserTitleRate { get; set; }
         public DbSet<WordSearch> WordSearch { get; set; }
-        public DbSet<Writer> Writers { get; set; }
+        public DbSet<Writer> Writer { get; set; }
+       
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseNpgsql("host=localhost;db=imdb;uid=postgres;pwd=rtmkak12");
+            optionsBuilder.UseNpgsql("host=localhost;db=rawdata_small;uid=postgres;pwd=1234");
+            optionsBuilder.UseNpgsql(_connectionString);
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

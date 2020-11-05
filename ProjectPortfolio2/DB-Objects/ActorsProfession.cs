@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Collections;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
+
 
 namespace ProjectPortfolio2
 {
@@ -15,3 +10,7 @@ namespace ProjectPortfolio2
         public string PrimaryProfession { get; set; }
     }
 }
+
+
+
+

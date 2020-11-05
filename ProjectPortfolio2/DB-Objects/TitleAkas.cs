@@ -13,7 +13,7 @@ namespace ProjectPortfolio2
         public string Types { get; set; }
         public string Attributes { get; set; }
         public string IsOriginalTitle { get; set; }
-
+        public TitleBasics TitleBasics { get; set; }
 
     }
 }

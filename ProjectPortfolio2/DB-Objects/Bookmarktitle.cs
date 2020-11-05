@@ -9,6 +9,6 @@ namespace ProjectPortfolio2.DBObjects
         [Key]
         public string Userid { get; set; }
         public string Tconst { get; set; }
-
+        
     }
 }
