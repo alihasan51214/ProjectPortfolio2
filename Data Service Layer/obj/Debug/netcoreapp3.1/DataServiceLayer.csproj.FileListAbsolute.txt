@@ -1,0 +1,12 @@
+C:\Users\bob-w\source\repos\ProjectPortfolio2Models\Data Service Layer\bin\Debug\netcoreapp3.1\DataServiceLayer.deps.json
+C:\Users\bob-w\source\repos\ProjectPortfolio2Models\Data Service Layer\bin\Debug\netcoreapp3.1\DataServiceLayer.runtimeconfig.json
+C:\Users\bob-w\source\repos\ProjectPortfolio2Models\Data Service Layer\bin\Debug\netcoreapp3.1\DataServiceLayer.runtimeconfig.dev.json
+C:\Users\bob-w\source\repos\ProjectPortfolio2Models\Data Service Layer\bin\Debug\netcoreapp3.1\DataServiceLayer.dll
+C:\Users\bob-w\source\repos\ProjectPortfolio2Models\Data Service Layer\bin\Debug\netcoreapp3.1\DataServiceLayer.pdb
+C:\Users\bob-w\source\repos\ProjectPortfolio2Models\Data Service Layer\obj\Debug\netcoreapp3.1\DataServiceLayer.csprojAssemblyReference.cache
+C:\Users\bob-w\source\repos\ProjectPortfolio2Models\Data Service Layer\obj\Debug\netcoreapp3.1\DataServiceLayer.AssemblyInfoInputs.cache
+C:\Users\bob-w\source\repos\ProjectPortfolio2Models\Data Service Layer\obj\Debug\netcoreapp3.1\DataServiceLayer.AssemblyInfo.cs
+C:\Users\bob-w\source\repos\ProjectPortfolio2Models\Data Service Layer\obj\Debug\netcoreapp3.1\DataServiceLayer.csproj.CoreCompileInputs.cache
+C:\Users\bob-w\source\repos\ProjectPortfolio2Models\Data Service Layer\obj\Debug\netcoreapp3.1\DataServiceLayer.dll
+C:\Users\bob-w\source\repos\ProjectPortfolio2Models\Data Service Layer\obj\Debug\netcoreapp3.1\DataServiceLayer.pdb
+C:\Users\bob-w\source\repos\ProjectPortfolio2Models\Data Service Layer\obj\Debug\netcoreapp3.1\DataServiceLayer.genruntimeconfig.cache

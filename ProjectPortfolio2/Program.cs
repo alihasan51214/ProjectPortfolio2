@@ -2,8 +2,10 @@
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using DataServiceLayer;
 
-namespace ProjectPortfolio2
+
+namespace  Program
 {
     class Program
     {
@@ -15,8 +17,6 @@ namespace ProjectPortfolio2
             .Build();
 
             var dataService = new DataService(config["connectionString"]);
-
-
 
             foreach (var elem in dataService.GetActorsKnownForTitles())
             {

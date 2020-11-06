@@ -1,0 +1,8 @@
+C:\Users\bob-w\source\repos\ProjectPortfolio2Models\Data Service Layer\bin\Debug\netcoreapp3.1\Data Service Layer.deps.json
+C:\Users\bob-w\source\repos\ProjectPortfolio2Models\Data Service Layer\bin\Debug\netcoreapp3.1\Data Service Layer.dll
+C:\Users\bob-w\source\repos\ProjectPortfolio2Models\Data Service Layer\obj\Debug\netcoreapp3.1\Data Service Layer.csprojAssemblyReference.cache
+C:\Users\bob-w\source\repos\ProjectPortfolio2Models\Data Service Layer\obj\Debug\netcoreapp3.1\Data Service Layer.AssemblyInfoInputs.cache
+C:\Users\bob-w\source\repos\ProjectPortfolio2Models\Data Service Layer\obj\Debug\netcoreapp3.1\Data Service Layer.AssemblyInfo.cs
+C:\Users\bob-w\source\repos\ProjectPortfolio2Models\Data Service Layer\bin\Debug\netcoreapp3.1\Data Service Layer.runtimeconfig.json
+C:\Users\bob-w\source\repos\ProjectPortfolio2Models\Data Service Layer\bin\Debug\netcoreapp3.1\Data Service Layer.runtimeconfig.dev.json
+C:\Users\bob-w\source\repos\ProjectPortfolio2Models\Data Service Layer\obj\Debug\netcoreapp3.1\Data Service Layer.genruntimeconfig.cache
