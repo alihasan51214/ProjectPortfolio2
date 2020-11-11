@@ -6,7 +6,7 @@ namespace DataServiceLib
     {
         public static List<Movie> Movies { get; }
         public static List<User> Users { get; set; }
-
+        
         static Data()
         {
             Movies = new List<Movie>
